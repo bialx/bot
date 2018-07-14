@@ -175,7 +175,7 @@ async def rankingmp():
 
 #Insulte aléatoire un membre du discord
 @bot.command(pass_context = True)
-async def NTM(context):
+async def swear(context):
     mem = 0 #nombre de membre dans le serveur du bot
     nb = 0 #nombre de ligne du fichier d'insulte
     c = 0 #compteur pour le fichier insulte
